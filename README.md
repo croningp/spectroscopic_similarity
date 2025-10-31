@@ -2,6 +2,10 @@
 
 The development of fully autonomous chemical synthesis platforms requires robust, real-time assessment of reactivity that does not rely on prior mechanistic knowledge. Existing methods often depend on predefined reaction models or chemical intuition, limiting their generalizability and adaptability. To address this challenge, we introduce a chemically agnostic approach that quantifies reactivity dynamics by applying similarity metrics to the full informational content of in-situ spectroscopic data. Using NMR, UV/Vis, IR, and EPR spectroscopy, we demonstrate that spectral similarity trajectories can reliably indicate reaction progress, detect kinetic features such as autocatalysis, and resolve complex behaviours including oscillations. Across diverse reaction classes, this method enabled estimated end-point detection and kinetic profiling without reaction-specific tuning. For example, the formation of lophine was followed by NMR at different reaction temperatures revealing Arrhenius-type kinetics. In a different experiment, the Belousov Zhabotinsky reaction was monitored by UV/Vis and the chemical oscillation with a periodicity of 7.25 seconds was captured. These results establish a generalizable framework for real-time, data-driven reactivity monitoring, representing a critical step toward autonomous synthesis guided by multidimensional spectroscopic feedback.
 
+## Replotting of published figures
+
+The code in the `plotscripts` folder is meant for reproducing the figures in the publication associated with this repository. Plotting from spectroscopic raw data files will require the user to download the raw spectra from Zenodo (https://doi.org/10.5281/zenodo.17492155) and adjusting the parent folder path `DATAPATH` in the Jupyter notebooks.
+
 # Installation
 
 1. Clone the repo and change your working directory
@@ -12,7 +16,7 @@ git clone https://github.com/croningp/spectroscopic_similarity.git
 cd spectroscopic_similarity
 ```
 
-1. Create an environment and activate it
+2. Create an environment and activate it
 
 ```bash
 conda create -n spec_sim python=3.12
@@ -22,7 +26,7 @@ conda create -n spec_sim python=3.12
 conda activate spec_sim
 ```
 
-2. Install AnalyticalLabware
+3. Install AnalyticalLabware
 
 ```bash
 pip install -e .
@@ -37,7 +41,7 @@ pip install -e .
 - numpy
 - nmrglue (python library for nmr data processing, [git][nmrglue-git]/[docs][nmrglue-docs])
 
-# Usage guides
+# Usage guides for operating the physical laboratory equipment
 
 ## Spinsolve NMR
 
