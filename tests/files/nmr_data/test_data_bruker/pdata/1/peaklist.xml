@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList>
+  <PeakList1D>
+    <PeakList1DHeader creator="nmrsu" date="2025-02-11T20:05:35.772+00:00" expNo="1" name="RR-loph2-monitoring-v1-t=" owner="" procNo="1" source="D:/NMR/data/RobertR/nmr">
+      <PeakPickDetails>F1=14.867610ppm, F2=-1.154557ppm, MI=0.20cm, MAXI=10000.00cm, PC=50.000
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="12.357115" intensity="1.411861e+000" type="0"/>
+    <Peak1D F1="7.878042" intensity="8.598852e+000" type="0"/>
+    <Peak1D F1="7.867743" intensity="8.971428e+000" type="0"/>
+    <Peak1D F1="7.566568" intensity="4.745240e-001" type="0"/>
+    <Peak1D F1="7.425729" intensity="1.069384e+000" type="0"/>
+    <Peak1D F1="7.368107" intensity="4.464724e+000" type="0"/>
+    <Peak1D F1="7.270493" intensity="1.553030e+001" type="0"/>
+    <Peak1D F1="7.138942" intensity="8.928010e+000" type="0"/>
+    <Peak1D F1="7.068715" intensity="4.422049e+000" type="0"/>
+    <Peak1D F1="5.835859" intensity="4.754187e+000" type="0"/>
+    <Peak1D F1="5.014586" intensity="4.495220e+000" type="0"/>
+    <Peak1D F1="3.599880" intensity="7.859495e-001" type="0"/>
+    <Peak1D F1="3.482888" intensity="7.667715e+001" type="0"/>
+    <Peak1D F1="3.360351" intensity="5.705978e-001" type="0"/>
+    <Peak1D F1="3.186617" intensity="5.105741e-001" type="0"/>
+    <Peak1D F1="2.480681" intensity="2.326791e+001" type="0"/>
+    <Peak1D F1="1.729396" intensity="1.287972e+000" type="0"/>
+    <Peak1D F1="1.623146" intensity="1.000000e+002" type="0"/>
+    <Peak1D F1="1.512277" intensity="7.265462e-001" type="0"/>
+    <Peak1D F1="1.183611" intensity="6.644756e-001" type="0"/>
+    <Peak1D F1="-0.000120" intensity="1.546587e+000" type="0"/>
+  </PeakList1D>
+</PeakList>

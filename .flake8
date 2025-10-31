@@ -1,0 +1,19 @@
+[flake8]
+max-line-length = 88
+extend-ignore =
+    A005
+    E203
+    E501
+    E701
+per-file-ignores =
+    __init__.py:F401
+require-plugins =
+    dlint
+    flake8-2020
+    flake8-bugbear
+    flake8-builtins
+    flake8-comprehensions
+    flake8-deprecated
+    flake8-variables-names
+    mccabe
+    pep8-naming

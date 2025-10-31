@@ -1,0 +1,10 @@
+VTC_REG_PID_SET_CH1=\
+<pid_settings type="probehead">
+   <standard_pid proportional="1.658" integral="68.790" differential="11.465" />
+   <temperature selftune="298.237" min="248.237" max="348.237" />
+   <vta type="4" sensor="1" connected_sensors="1" />
+   <gasflow selftune="535.000" min="481.500" max="588.500" />
+   <bcu_chiller type="1" selftune="1" min="0" max="1000" />
+   <pics checksum="" name=" CP DCH 600S3 C/H-D-05 Z" />
+   <checksum value="2EB17E0A" />
+</pid_settings>

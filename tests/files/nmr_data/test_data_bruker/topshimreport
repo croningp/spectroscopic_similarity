@@ -1,0 +1,53 @@
+
+New TopShim run:
+
+version = topshim 2.0.0
+date = 2025-02-11
+time = 20:01:10.348
+command = topshim
+
+FINE SHIMMING
+
+Parameters:
+
+probe = Z107910_0024
+solvent = THF
+shim nucleus = 2H
+nucleus optimised for = 1H
+o1p (from lock) = 1.73 ppm
+selective excitation width = 1.0 ppm
+
+Results:
+
+
+1D Shimming:
+Iteration  1: FWHM Before=140.1 Hz, Target= 0.2 Hz, After= 0.3 Hz
+Iteration  2: FWHM Before= 0.3 Hz, Target= 0.3 Hz, After= 0.4 Hz
+Iteration  3: FWHM Before= 0.4 Hz, Target= 0.2 Hz, After= 0.3 Hz
+Iteration  4: FWHM Before= 0.3 Hz, Target= 0.2 Hz, After= 0.8 Hz
+Iteration  5: FWHM Before= 0.8 Hz, Target= 0.3 Hz, After= 0.4 Hz
+Iteration  6: FWHM Before= 0.4 Hz, Target= 0.2 Hz, After= 0.3 Hz
+Iteration  7: FWHM Before= 0.3 Hz, Target= 0.2 Hz, After= 0.3 Hz
+Iteration  8: FWHM Before= 0.3 Hz, Target= 0.3 Hz, After= 0.3 Hz
+Iteration  9: FWHM Before= 0.3 Hz, Target= 0.3 Hz, After= 0.4 Hz
+Iteration 10: FWHM Before= 0.4 Hz, Target= 0.3 Hz, After= 0.3 Hz
+Shim succeeded
+
+Lineshape quality factor (1D spectrum, spinning) = 0.451
+
+shim changes:
+Z	-1147
+Z2	-454
+Z3	-1172
+Z4	-4104
+Z5	-3113
+Z6	-5290
+Z7	+8424
+Z8	+33826
+
+duration = 2 min 38 sec
+completed successfully
+finished Tue Feb 11 20:03:46 2025
+
+
+========================================================================

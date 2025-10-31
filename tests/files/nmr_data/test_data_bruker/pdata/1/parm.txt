@@ -1,0 +1,38 @@
+
+Current Data Parameters
+NAME     RR-loph2-monitoring-v1-t=
+EXPNO                 1
+PROCNO                1
+
+F2 - Acquisition Parameters
+Date_          20250211
+Time              20.05 h
+INSTRUM           spect
+PROBHD   Z107910_0024 (
+PULPROG              zg
+TD                66560
+SOLVENT             THF
+NS                   16
+DS                    0
+SWH            9615.385 Hz
+FIDRES         0.288924 Hz
+AQ            3.4611199 sec
+RG                34.58
+DW               52.000 usec
+DE                20.00 usec
+TE                300.0 K
+D1           2.00000000 sec
+TD0                   1
+SFO1        600.1342009 MHz
+NUC1                 1H
+P1                 9.55 usec
+PLW1        19.78000069 W
+
+F2 - Processing parameters
+SI                65536
+SF          600.1300861 MHz
+WDW                  EM
+SSB                   0
+LB                 0.30 Hz
+GB                    0
+PC                50.00

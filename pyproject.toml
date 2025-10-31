@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "AnalyticalLabware"
+dynamic = ["version"]
+description = "A library to control analytical instruments on the Chemputer"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    { name = "The Cronin Group" },
+]
+classifiers = [
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Scientific/Engineering :: Chemistry",
+]
+dependencies = [
+    "matplotlib ~=3.4, !=3.9.0",
+    "nmrglue~=0.9",
+    "numpy~=1.26",
+    "pydantic~=2.4",
+    "scipy~=1.11",
+    "pandas~=2.3",
+    "tqdm~=4.67",
+]
+
+[project.optional-dependencies]
+tests = [
+    "pytest-cov~=5.0",
+    "pytest-mock~=3.14",
+    "pytest-xdist~=3.6",
+    "pytest~=8.2",
+    "twisted~=24.3",
+]
+
+[tool.black]
+target-version = [
+    "py312",
+]
+
+[tool.isort]
+profile = "black"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools_scm]

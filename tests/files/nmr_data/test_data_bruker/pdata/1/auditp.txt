@@ -1,0 +1,38 @@
+##TITLE= Audit trail, TopSpin 3.6.5
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ D:/NMR/data/RobertR/nmr/RR-loph2-monitoring-v1-t=/1/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-02-11 20:05:34.847 +0000>,<nmrsu>,<CZC943CYQC>,<go4>,<TopSpin 3.6.5>,
+      <created by zg on data set with UUID '57a6d3c8-e8b3-11ef-9087-84a93e84dbc3'
+       started at 2025-02-11 20:04:04.167 +0000,
+       POWCHK enabled, PULCHK disabled,
+       completed at 2025-02-11 20:05:34.846 +0000
+
+       configuration hash MD5:
+       CE 2F 98 FA 7C 19 7A F5 34 79 08 27 95 4E B6 6B
+       data hash MD5: 65K
+       3D 86 6C 44 59 AD D4 87 EF CA 24 61 4D 26 F2 C0>)
+(   2,<2025-02-11 20:05:34.922 +0000>,<nmrsu>,<CZC943CYQC>,<audit>,<TopSpin 3.6.5>,
+      <user comment:
+       ICON-NMR User ID: RobertR
+       data hash MD5: 65K
+       3D 86 6C 44 59 AD D4 87 EF CA 24 61 4D 26 F2 C0>)
+(   3,<2025-02-11 20:05:35.397 +0000>,<nmrsu>,<CZC943CYQC>,<proc1d>,<TopSpin 3.6.5>,
+      <Start of raw data processing
+       ef LB = 0.3 FT_mod = 6 PKNL = 1 SI = 64K
+       data hash MD5: 64K
+       C0 EF 3F E4 33 1C 46 CB A1 2E 2A 5C DB 2F 65 8C>)
+(   4,<2025-02-11 20:05:35.566 +0000>,<nmrsu>,<CZC943CYQC>,<proc1d>,<TopSpin 3.6.5>,
+      <apks
+       data hash MD5: 64K
+       0C A7 52 6D A6 DE 61 20 D6 E0 F0 0C 71 DB 4D A0>)
+(   5,<2025-02-11 20:05:35.622 +0000>,<nmrsu>,<CZC943CYQC>,<proc1d>,<TopSpin 3.6.5>,
+      <abs ABSG = 3
+       data hash MD5: 64K
+       DA 68 E6 4F 76 32 43 25 6C DA 67 98 97 9A 32 C7>)
+##END=
+
+$$ hash MD5
+$$ 74 74 60 F7 14 DE E1 0C EC F2 58 B7 9C 5D 6E 91
